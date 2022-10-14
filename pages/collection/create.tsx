@@ -11,7 +11,7 @@ import PriceForApeice from '../../components/createCollection/PriceForApeice';
 import MintOptionToggle from '../../components/createCollection/MintOptionToggle';
 import useWindowSize from '../../hooks/useWindowSize';
 
-export default function create() {
+export default function Create() {
   const size=useWindowSize()
   const [isMintFree,setIsMintFree]=React.useState(true)
   const [activePriceButton,setActivePriceButton]=React.useState<'Fixed Price'|'Open Bid'|'Timed Auction'>('Fixed Price')

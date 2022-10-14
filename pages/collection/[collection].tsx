@@ -17,7 +17,7 @@ type CollectionProps={
     nfts:Nft[]
 } 
 type props=CollectionProps & NextPage;
-export default function collection({name,details,imgUrl,attributes,nfts}:props) {
+export default function Collection({name,details,imgUrl,attributes,nfts}:props) {
   const size=useWindowSize();
   const [showMobileFilter,setShowMobileFilter]=React.useState(false)
   return (

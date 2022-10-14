@@ -29,7 +29,7 @@ type props={
   marketplaceFee:string,
   categories:string[]
 }
-export default function nft({categories,imageUri,name,id,creator,details,features,mintAddress,tokenAddress,ownerAddress,royaltyPercentage,transactionFeePercentage,marketplaceFee}:props) {
+export default function Nft({categories,imageUri,name,id,creator,details,features,mintAddress,tokenAddress,ownerAddress,royaltyPercentage,transactionFeePercentage,marketplaceFee}:props) {
  const size=useWindowSize()
   return (
     <>

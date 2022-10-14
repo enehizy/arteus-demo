@@ -2,7 +2,7 @@ import React from 'react'
 import {BinanceButton,EthereumButton,ReefButton,TelosButton} from '../components/ConnectToNetworkButtons';
 
 
-export default function connect(){
+export default function Connect(){
   return(
     <div className='flex flex-col justify-center items-center'>
     <h2 className='font-bold text-lg my-6'>Please Select Network</h2>
