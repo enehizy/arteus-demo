@@ -20,7 +20,7 @@ const defaultValues: VALUES = {
 
 const AppContext = React.createContext(defaultValues);
 
-export const AppContextProvider = ({ children }) => {
+export const AppContextProvider = ({ children }:{children:any}) => {
     const [account, setAccount] = useState(defaultValues.account);
     const [provider, setProvider] = useState(defaultValues.provider);
     const [connected, setConnected] = useState(defaultValues.connected);
