@@ -74,7 +74,7 @@ export async  function getServerSideProps(context:GetServerSidePropsContext){
     const address=path[1]
     const tokenId=path[2]
     if(supportedNetworts.includes(network)){
-      const imageUri="https://img.seadn.io/files/48b4bd2c10413cabb29bdb046de296bc.png?fit=max&w=600"
+      const imageUri="https://i.seadn.io/gcs/files/25b7798c743f5c8174077028526e3283.png?auto=format&dpr=1&w=1000"
       const name="CyberKong"
       const id='840'
       const categories=['games','music','pfp']

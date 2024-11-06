@@ -47,7 +47,7 @@ export async function getServerSideProps(){
         name:"Bored Ape",
         tokenId:"1",
         price:"2.00",
-        imgUrl:"https://img.seadn.io/files/e2ad61c67d6bfcc3460e42466cc9b5de.png?auto=format&fit=max&w=384"
+        imgUrl:"https://i.seadn.io/gae/D7VFW8tvo3YTKIDOfR1TL6zq2lT0aIaoWIQ8_c2X5fY2Y3v4v5i8Y1neI2Fr-jsdj1XAdx2OHggDyNBHhhNvetwYD2tiBGkZRlg8KQ?auto=format&dpr=1&w=1000"
     }))
 
     const attributes=['background','eyes','fur','Mouth','clothes','hat','cot','ground','heroes']

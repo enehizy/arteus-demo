@@ -55,7 +55,7 @@ export async function getServerSideProps(){
     name:"The Currency",
     description:`ENI is delighted to present The Currency, the first NFT collection by Damien Hirst. Reimagining the way NFTs are used, The Currency is a collection of 10,000 NFTs which correspond to 10,000 unique physical artworks which are stored in a secure vault in the UK. 
     The works are now brought to life through their launch on the blockchain.`,
-    imageUrl:"https://img.rarible.com/prod/image/upload/t_avatar_big/prod-collections/0xaadc2d4261199ce24a4b0a57370c4fcf43bb60aa/avatar/QmaKSftwoc9mh29RK2Z8QrX8fEostfghuYojvaMe2A1Cck"
+    imageUrl:"https://i.seadn.io/s/raw/files/c78ff40b1ac3b04f985a5c2a4d054e09.png?auto=format&dpr=1&w=1920"
   }
 ]
   const newCollectionNfts:NewCollectionNft[]=[{
